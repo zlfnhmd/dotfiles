@@ -56,7 +56,18 @@ alias ga="git add"
 alias gap="git add -p"
 alias gb="git branch"
 alias gbd="git branch -d"
+alias gcb="git checkout -b"
+alias gcm="git checkout master"
+alias gcmsg="git commit -m"
+alias gco="git checkout"
+alias gd="git diff"
+alias gdca="git diff --cached"
+alias gf="git fetch"
+alias gp="git push"
+
 alias gs="git status"
+
+alias gh="gh-home"
 
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
@@ -64,5 +75,4 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 eval `dircolors ~/.dir_colors/dircolors`
 
-prompt_context() {} 
-source /home/zulfan/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+prompt_context() {}
