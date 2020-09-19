@@ -46,9 +46,9 @@ alias code="code ."
 alias zsh="code ~/.zshrc"
 
 # Personal Projects
-alias zlfnhmd="cd ~/Projects/zlfnhmd && code ."
-alias hms="cd ~/Projects/help-me-setup && code ."
-alias dotfiles="cd ~/dotfiles && code ."
+alias zlfnhmd="cd ~/Projects/zlfnhmd"
+alias hms="cd ~/Projects/help-me-setup"
+alias dotfiles="cd ~/dotfiles"
 
 # Git
 alias g="git"
