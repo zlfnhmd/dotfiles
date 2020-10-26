@@ -64,6 +64,7 @@
   "terminal.integrated.shell.osx": "/usr/bin/zsh",
   "typescript.preferences.quoteStyle": "single",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.menuBarVisibility": "toggle",
   "window.zoomLevel": 0,
   "workbench.editor.showTabs": false,
   "workbench.iconTheme": "vscode-icons",
