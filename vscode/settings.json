@@ -1,0 +1,71 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "editor.renderControlCharacters": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "explorer.confirmDelete": false,
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.tsx": "typescriptreact",
+    "*rc": "shellscript",
+    "zshrc_default": "shellscript",
+    ".env": "properties",
+    ".env.*": "properties"
+  },
+  "files.defaultLanguage": "markdown",
+  "git.autofetch": true,
+  "git.confirmSync": true,
+  "git.enableSmartCommit": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.validate.enable": false,
+  "jest.autoEnable": false,
+  "jest.runAllTestsFirst": false,
+  "jest.showCoverageOnLoad": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontFamily": "Menlo for Powerline",
+  "terminal.integrated.shell.osx": "/usr/bin/zsh",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 0,
+  "workbench.editor.showTabs": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.sideBar.location": "right"
+}

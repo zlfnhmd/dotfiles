@@ -1,0 +1,50 @@
+// Place your key bindings in this file to override the defaults
+[
+  /**
+  * Activity Bar
+  **/
+  {
+      "key": "ctrl+k ctrl+d",
+      "command": "workbench.view.debug"
+  },
+  {
+      "key": "ctrl+k ctrl+e",
+      "command": "workbench.view.explorer"
+  },
+  {
+      "key": "ctrl+k ctrl+f",
+      "command": "workbench.view.search"
+  },
+  {
+      "key": "ctrl+k ctrl+g",
+      "command": "workbench.view.scm"
+  },
+  {
+      "key": "ctrl+k ctrl+x",
+      "command": "workbench.extensions.action.showInstalledExtensions"
+  },
+  {
+      "key": "ctrl+k ctrl+b",
+      "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+      "key": "ctrl+d",
+      "command": "duplicate.execute",
+      "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+  },
+  {
+      "key": "ctrl+n",
+      "command": "explorer.newFile",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+      "key": "shift+ctrl+n",
+      "command": "explorer.newFolder",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+      "key": "ctrl+r",
+      "command": "workbench.files.action.refreshFilesExplorer",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  }
+]
