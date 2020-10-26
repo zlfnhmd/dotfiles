@@ -44,6 +44,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias code="code ."
 alias zsh="code ~/.zshrc"
+alias epicreact="cd ~/learning/epicreact/"
 
 # Personal Projects
 alias zlfnhmd="cd ~/Projects/zlfnhmd"
