@@ -1,0 +1,50 @@
+DIR_DOTFILES="$HOME/dotfiles"
+DIR_PERSONAL="$HOME/personal"
+
+alias dotfiles="cd $DIR_DOTFILES"
+alias edit-dotfiles="code $DIR_DOTFILES"
+
+# Personal Projects
+alias personal="cd $DIR_PERSONAL"
+alias zlfnhmd="cd $DIR_PERSONAL/zlfnhmd"
+alias edit-zlfnhmd="code $DIR_PERSONAL/zlfnhmd"
+alias hms="cd $DIR_PERSONAL/help-me-setup"
+alias edit-hms="code $DIR_PERSONAL/help-me-setup"
+
+# git
+
+## Predefined(for reference)
+# alias g="git"
+# alias ga="git add"
+# alias gcb="git checkout -b"
+# alias gcm="git checkout master"
+# alias gcd="git checkout develop"
+# alias gcmsg="git commit -m"
+# alias gd="git diff"
+# alias gds="git diff --staged"
+# alias gf="git fetch"
+# alias ggpull="git pull origin $(current_branch)"
+# alias ggpush="git push origin $(current_branch)"
+# alias grbi="git rebase -i"
+# alias grba="git rebase --abort"
+# alias grbc="git rebase --continue"
+# alias grbs="git rebase --skip"
+# alias grhh="git reset --hard"
+
+## Custom
+alias gap="git add -p"
+alias gbd="git branch -D"
+alias gc="git checkout"
+alias gs="git status"
+alias gst="git stash"
+alias gsta="git stash apply"
+alias gstd="git stash drop"
+alias gstl="git stash list"
+alias gstp="git stash pop"
+
+# npm
+alias nr='npm run'
+alias nt='npm run test'
+alias ns='npm start'
+alias nb='npm run build'
+alias ni='npm install'

@@ -1,0 +1,32 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="agnoster"
+
+# Automatically update without prompting.
+DISABLE_UPDATE_PROMPT="tre"
+
+# Display red dots whilst waiting for completion.
+COMPLETION_WAITING_DOTS="true"
+
+# Which plugins would you like to load?
+plugins=(git colorize brew osx zsh-autosuggestions history-substring-search)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration=
+export LANG=en_US.UTF-8
+
+# Source custom configs
+DIR_DOTFILES="$HOME/dotfiles"
+
+source /Users/zulfanhameed/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source "$DIR_DOTFILES/zsh/aliases"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export GPG_TTY=$(tty)
