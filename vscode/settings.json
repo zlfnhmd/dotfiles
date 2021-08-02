@@ -24,9 +24,14 @@
     "source.fixAll.eslint": true
   },
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontSize": 14,
+  "editor.smoothScrolling": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.insertSpaces": true,
   "editor.minimap.enabled": false,
   "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "eslint.validate": [
